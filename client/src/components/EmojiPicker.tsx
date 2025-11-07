@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 interface EmojiPickerProps {
   onEmojiSelect: (emoji: string) => void
